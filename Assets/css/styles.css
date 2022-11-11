@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   padding-top: 1%;
   background-color: cornflowerblue;
@@ -131,14 +136,48 @@
 }
 
 .form {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+
+.form__span {
+  padding-bottom: 5%;
+  padding-left: 25%;
+}
+
+.form__span label {
+  font-size: medium;
+  font-weight: 700;
+  color: rgb(159, 42, 73);
 }
 
 .form__h1 {
   color: rgb(159, 42, 73);
   text-align: center;
   padding: 2%;
+  width: 100%;
+}
+
+.main__div {
+  text-align: center;
+}
+
+.form__button {
+  background-color: brown;
+  border: none;
+  padding: 1%;
+  color: white;
+  width: 20%;
+  height: 5%;
+  font-size: large;
+}
+
+.footer {
+  background-color: cornflowerblue;
+  padding-bottom: 0;
+  text-align: center;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

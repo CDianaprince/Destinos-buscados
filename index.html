@@ -189,30 +189,38 @@
         <form class="form" action="contacto">
 
             <h1 class="form__h1"> Contactanos</h1>
-            
-            <label for="nombre">Nombre</label>
-            <input type="tex" name="nombre" placeholder="Ana Sofia Pineda">
 
+            <span class="form__span">
+                <label for="nombre">Nombre</label><br>
+                <input type="tex" size="100" name="nombre" placeholder="Ana Sofia Pineda">
+            </span>
 
-            <label for="e-mail">Email</label>
-            <input type="email" name="e-mail" placeholder="AnaSofia@gmail.com">
+            <span class="form__span">
+                <label for="e-mail">Email</label><br>
+                <input type="e-mail" size="100" name="e-mail" placeholder="AnaSofia@gmail.com">
+            </span>
 
+            <span class="form__span">
+
+                <label for="asunto">Comentario</label><br>
+
+                <textarea size="110" rows="10" cols="40" id="story" name="asunto"></textarea> <br>
+
+               
+            </span>
 
 
         </form>
 
-        <label for="asunto">Comentario</label>
-        <textarea id="story" name="asunto"></textarea>
+        <div class="main__div">
 
-        <button> Enviar </button>
-
-
-
+            <button class="form__button"> Enviar </button>
+         </div>
         
 
     </main>
 
-    <footer>
+    <footer class="footer">
         <h2>Todos los derechos Reservados</h2>
     </footer>
 
