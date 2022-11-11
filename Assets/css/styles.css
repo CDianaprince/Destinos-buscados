@@ -25,7 +25,6 @@
 }
 
 .nav__logo--cursive {
-  text-decoration: none;
   font-style: italic;
   font-weight: 700;
   padding-right: 50%;
@@ -37,10 +36,9 @@
   padding: 2%;
 }
 
-.main {
-  padding: 2%;
+.main{
+    padding: 2%;
 }
-
 .section-1 {
   display: flex;
   flex-direction: column;
@@ -156,7 +154,6 @@
   color: rgb(159, 42, 73);
   text-align: center;
   padding: 2%;
-  width: 100%;
 }
 
 .main__div {
